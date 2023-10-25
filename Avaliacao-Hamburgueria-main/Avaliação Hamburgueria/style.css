@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    --amarelo: RGB(255,194,52);
+    --marrom: RGB(65,31,9);
+    --vermelho: RGB(223,28,28);
+
+    color: var(--marrom);
+}
+
+h2 {
+    font-size: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--amarelo);
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+nav figure {
+    padding: 20px;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    background-color: var(--amarelo);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.texto-main {
+    font-weight: bold;
+}
+.texto-main h1 {
+    font-size: 90px;
+}
+.texto-main h2 {
+    font-size: 75px;
+}
+
+.imagem-main {
+    padding: 50px;
+}
+
+.preco {
+    position: relative;
+    left: 75px;
+    bottom: 75px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tasty-container {
+    background-color: var(--amarelo);
+
+    align-items: center;
+    padding: 15px;
+    font-weight: bold;
+}
+.section-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 25px;
+    width: 70%;
+}
+.section-main h2 {
+    font-size: 50px;
+}
+.section-main p {
+    text-align: justify;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-flow: row wrap;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.card h3 {
+    font-size: 30px;
+}
+
+.card p {
+    padding: 30px;
+}
+
+.card figure {
+    size: 50%;
+    padding: 20px;
+}
+.card figure img {
+    width: 100%;
+}
+
+.card button {
+    width: 200px;
+    padding: 12px 20px;
+    color: white;
+    font-weight: bold;
+    background-color: var(--vermelho);
+    border-radius: 5px;
+
+}
+
+form {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.form-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    flex-flow: wrap;
+}
+
+
+.form-item {
+    flex: 1;
+    padding-top: 15px;
+}
+
+.form-item input {
+    background-color: var(--amarelo);
+    width: 250px;
+    border-radius: 5px;
+    padding: 12px 20px;
+}
+
+.form-item button {
+    width: 292px;
+    padding: 12px 20px;
+    background-color: var(--vermelho);
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+
+footer {
+    background-image: url("./img/rodape/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.footer-row1{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.footer-conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    padding: 60px 50px;
+    
+}
+
+.footer-contato {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    margin-left: 150px;
+    padding: 150px 50px;
+}
+
+
+.footer-contato img{
+    width: 4%;
+    margin-right:10px;
+
+}
+
+.footer-conteudo p {
+    color: white;
+}
+
+.footer-contato p {
+    color: white;
+}
+
+.footer-row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-row2-company{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    padding: 30px 50px;
+}
+
+.footer-row2-redes-sociais{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    padding: 30px 50px;
+}
+
+.footer-row2-redes-sociais figure{
+    justify-content: space-between;
+    margin-left: 275px;
+}
+
+
+.footer-row2-company p{
+    color: white;
+    font-size: 10px;
+}
+
+
+
+
+
